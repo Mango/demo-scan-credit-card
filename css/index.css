@@ -1,0 +1,140 @@
+/* Reset
+---------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd,
+ol, ul, li, fieldset, form, label, input, select, legend, table, caption, tbody, tfoot, thead, tr, th, td, hr, button
+{margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align: baseline; background:transparent; box-sizing:border-box;}
+ol, ul {list-style:none;}
+h1, h2, h3, h4, h5, h6, li {line-height:100%;}
+blockquote, q {quotes:none;}
+table {border-collapse:collapse; border-spacing:0;}
+input, select, textarea, button {font-family:inherit; font-size:1em;}
+textarea {overflow:auto;}
+
+/* Base
+---------------------------------- */
+body {
+  font: 100% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #000;
+  background: #404448;
+  margin: 0 10px;
+}
+
+a {
+  color: #3C88CD;
+}
+
+a:hover {
+  color: #2E6CA5;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+[hidden] {
+  display: none;
+}
+
+input,
+.btn,
+.box {
+  border-radius: 3px;
+}
+
+.box {
+  position: relative;
+  padding: 40px 20px 30px;
+  margin: 20% auto;
+  background: #FAFAFA;
+  box-sizing: border-box;
+  max-width: 400px;
+}
+
+/* Header
+---------------------------------- */
+.header {
+  text-align: center;
+  padding: 25px 0 30px;
+}
+
+.logo {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+  border: 3px solid #FAFAFA;
+  border-radius: 100px;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  z-index: 1;
+}
+
+/* Form
+---------------------------------- */
+label {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+input {
+  margin-bottom: 10px;
+  border: 1px solid #CCC;
+  width: 100%;
+  padding: 15px 15px 15px 60px;
+}
+
+input:focus {
+  outline: 0;
+  background-color: #FFFFF2 !important;
+}
+
+#month,
+#year {
+  float:left;
+  width: 50%;
+  padding-left: 15px;
+}
+
+#month {
+  border-right: none;
+  border-radius: 3px 0 0 3px;
+}
+
+#year {
+  border-radius: 0 3px 3px 0;
+}
+
+#holdername {
+  background: #FFF url(../assets/holder.png) no-repeat 18px 50%;
+}
+
+#card {
+  background: #FFF url(../assets/card.png) no-repeat 18px 50%;
+}
+
+.btn {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  color: #FFF;
+  padding: 15px 0;
+  text-align: center;
+  background: #4b5;
+  border: 1px solid #3DA843;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background: #3DA843;
+}
