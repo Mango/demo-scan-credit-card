@@ -4,7 +4,7 @@
 
 ## Demo
 
-http://mango.github.io/demo-scan-credit-card/
+https://mango.github.io/demo-scan-credit-card/
 
 ## Support
 
