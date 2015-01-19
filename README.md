@@ -6,6 +6,11 @@
 
 https://mango.github.io/demo-scan-credit-card/
 
+
+## Hack
+
+https://mango.github.io/demo-scan-credit-card/index.hack.html
+
 ## Support
 
 - Safari on IOS8

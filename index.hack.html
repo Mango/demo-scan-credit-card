@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui">
+    <title>Scan credit card information</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/index.css">
+  <body>
+    <div class="box">
+      <header class="header">
+        <img  class="logo" src="assets/logo.png" alt="Logo Crucero">
+      </header>
+
+      <form class="form" action="/" method="POST">
+        <fieldset>
+          <div class="fieldLine">
+            <label for="holdername" hidden>Name on card</label>
+            <label for="holdername">Nombre en la tarjeta</label>
+            <input type="text" id="holdername" placeholder="Nombre en la tarjeta" name="holdername" required>
+          </div>
+
+          <div class="fieldLine">
+            <label for="card">Número de la tarjeta</label>
+            <input type="text" id="card" placeholder="Número de la tarjeta" name="card" required>
+          </div>
+
+          <div class="fieldLine">
+            <label for="month">Fecha de expiración</label>
+            <input id="month" type="text" placeholder="MM" name="month" required>
+            <input id="year" type="text" placeholder="AAAA" name="year" required>
+          </div>
+        </fieldset>
+
+        <div class="form-action">
+          <button type="submit" class="btn">Continuar</button>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
