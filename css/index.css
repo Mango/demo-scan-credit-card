@@ -28,15 +28,6 @@ a:hover {
   color: #2E6CA5;
 }
 
-h1 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
-
-h2 {
-  font-weight: 400;
-}
-
 [hidden] {
   display: none;
 }
@@ -49,8 +40,8 @@ input,
 
 .box {
   position: relative;
-  padding: 40px 20px 30px;
-  margin: 20% auto;
+  padding: 30px 20px 30px;
+  margin: 15% auto;
   background: #FAFAFA;
   box-sizing: border-box;
   max-width: 400px;
@@ -71,7 +62,7 @@ input,
   border: 3px solid #FAFAFA;
   border-radius: 100px;
   position: absolute;
-  top: -50px;
+  top: -30px;
   left: 50%;
   z-index: 1;
 }
